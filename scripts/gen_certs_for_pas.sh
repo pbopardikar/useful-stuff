@@ -6,7 +6,7 @@ set -e
 # the script will output a root certificate, domain certificate & domain key
 # paste the contents of root cert into the Trusted Cert field under the Security tab of BOSH Director
 # paste the contents of the domain cert, key in the PAS tile's Network tab under "certs & keys for HA Proxy & Router"
-# Note: You may need to recreate all the VM's. Check the box "Recreate all VMs" under the Director Config
+# Note: You may need to recreate all the VM's. Check the box "Recreate all VMs" under the Director Config, before you click "Apply Changes"
 
 SYS_DOMAIN=system.mydomain.com
 APPS_DOMAIN=apps.mydomain.com
